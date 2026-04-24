@@ -1,52 +1,43 @@
-# First-project
-my first GitHub project
-# 🌡️ Temperature Based Fan Control System
+System Monitoring & Health Status Analyzer (C Program)
 
-A simple C project that automatically controls fan speed based on temperature.
+📌 Description
 
----
+This project is a simple C-based application that analyzes system CPU usage and character health status using conditional statements. It demonstrates decision-making using if, else if, and else.
 
-## 📌 Project Description
-This project reads temperature input and controls a fan automatically depending on the temperature range. It is useful for learning embedded logic and C programming basics.
+⚙️ Features
+CPU usage monitoring
+Health status evaluation
+Uses conditional logic
+Beginner-friendly project
 
----
+🧠 Concepts Used
+if statement
+if-else
+else-if ladder
+User input (scanf)
 
-## ⚙️ Features
-- Reads temperature value
-- Automatically turns fan ON/OFF
-- Simple and efficient logic
-- Beginner-friendly C code
+🚀 How It Works
+🔹 CPU Monitoring
+If CPU usage > 90 → Potential issue
+If CPU usage > 70 → High usage
+Else → Normal
+🔹 Health Status
+Health > 80 → Healthy
+Health > 40 → Weakened
+Else → Critical
 
----
+▶️ Sample Output
+Enter CPU Usage (in %): 85
+High CPU Usage
 
-## 💻 Technologies Used
-- C Programming
-- Basic Control Logic
+Enter Character Health: 60
+Weakened
 
----
+💡 Future Improvements
+Add real system monitoring (OS integration)
+Add graphical output
+Convert into embedded system
 
-## 📷 Project Preview
-Add your image here 👇
-Currently, no image available. will be 
-updated soon.
+👨‍💻 Author
 
----
-
-## 🧠 How It Works
-1. Read temperature input
-2. Check temperature range
-3. If high → Fan ON
-4. If low → Fan OFF
-
----
-
-## 📁 Files Included
-- `AP1.c` → Main source code
-
----
-
-## 🚀 How to Run
-```bash
-gcc AP1.c -o fan
-./fan
-
+Pavan
